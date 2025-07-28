@@ -1,104 +1,70 @@
-# Project Title:
+# Airline Management System
 
-Airline Management System
+## 1. Project Description
 
-## 1. Project Description:
+The Airline Management System is a desktop application that enables users to manage passenger information, flight schedules, and booking details efficiently.
 
-Airline Management System is a desktop-based application that allows a user to access passenger's details, flight details and flight booking details.
-
-
-## 2. Tech Stack:
+## 2. Tech Stack
 
 - Java 11
-
 - MySQL
 
-## 3. Project Dependencies:
+## 3. Project Dependencies
 
 - mysql-connector-java-8.0.27.jar
-  
 - rs2xml.jar
 
-## 4. Installation:
+## 4. Installation
 
-i. Clone the git repo
+1. Clone the repository:
+    ```
+    https://github.com/gopuxyz/airline-management-system.git
+    ```
+2. Open the project folder in your IDE.
+3. Explore the code and resources.
 
-```
-https://github.com/AAdewunmi/Airline-Management-System.git
-```
+## 5. How To Use
 
-ii. Open project folder
+1. Set up the database and tables using the SQL commands in `src/airline/mysql_commands.txt`.
+2. Start your MySQL server.
+3. Run `Login.java` to launch the application.
+4. Log in with:
+    - **User Name:** admin
+    - **Password:** 12345
 
-iii. Explore
-
-😎
-
-## 5. How To Use:
-
-i. Create Database and Tables (src/airline/mysql_commands.txt)
-
-ii. Run MySQL Server
-
-iii. Run Login.java
-
-iv. Log in 
-
-- User Name: admin
-
-- Password: 12345
-
-```
-
-NB: Make sure dependencies are installed for the project.
-```
+> **Note:** Ensure all dependencies are installed before running the project.
 
 ## 6. Demo
 
-- Login Page:
+- **Login Page:**
 
-![This is an image](src/screenshot/login.png)
+  ![Login Page](src/screenshot/login.png)
 
-- Airline Management System Dashboard:
+- **Dashboard:**
 
-![This is an image](src/screenshot/dashboard.png)
+  ![Dashboard](src/screenshot/dashboard.png)
 
-- Add Customer Page:
+- **Add Customer:**
 
-![This is an image](src/screenshot/add_customer.png)
+  ![Add Customer](src/screenshot/add_customer.png)
 
-- Cancel Flight Page:
+- **Cancel Flight:**
 
-![This is an image](src/screenshot/cancel.png)
+  ![Cancel Flight](src/screenshot/cancel.png)
 
-- Flight Information Page:
+- **Flight Information:**
 
-![This is an image](src/screenshot/flight_info.png)
+  ![Flight Information](src/screenshot/flight_info.png)
 
-- Journey Details Page:
+- **Journey Details:**
 
-![This is an image](src/screenshot/journey_details.png)
+  ![Journey Details](src/screenshot/journey_details.png)
 
-- Flight Payment Page:
+- **Payment Page:**
 
-![This is an image](src/screenshot/payment.png)
+  ![Payment Page](src/screenshot/payment.png)
 
+## 7. Contributing
 
-## 7. Contributing:
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
-## 8. Adapted From: 
-
-UDEMY: 45 Real World Java Development Projects Bootcamp Course 2022
-
-Java Programming Course: Learn Development Of JAVA Projects Using JSP,JDBC, Servlets, Swing, Spring Boot, Maven, Hibernate
-
-Project Name: Project 3: Airline Management System
-
-Created by: Engineering.Org.In
-
-Last updated: 09/2022
-
-URL: https://www.udemy.com/course/java-programming-project-using-jsp-jdbc-servlets/
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
